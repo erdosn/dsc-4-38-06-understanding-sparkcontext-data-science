@@ -88,9 +88,21 @@ We can use Python's `dir()` function to get a list of all the attributes (includ
 # Use Python's dir(obj) to get a list of all attributes of SparkContext
 
 # Code here 
-
-
 ```
+
+
+    ----------------------------------------
+
+    NameErrorTraceback (most recent call last)
+
+    <ipython-input-1-57f13ea98aa1> in <module>()
+          2 
+          3 # Code here
+    ----> 4 dir(sc)
+    
+
+    NameError: name 'sc' is not defined
+
 
 Alternatively, you can use Python's `help()` function to get an easier to read list of all the attributes, including examples, that the sc object has.
 
